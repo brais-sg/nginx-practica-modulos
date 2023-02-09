@@ -25,6 +25,14 @@ Tras editar estas reglas, ahora debemos darle acceso al fichero al usurio desde 
 
 Tras esto, reiniciamos el servicio de nginx y tendremos el bloqueo por IPs activo
 
+# Añadir un nuevo encabezado a las respuestas HTTP
+Para esto, abriremos el fichero de configuración anteriormente modificado
+
+![Archivo de configuración](/img/encabezado_adicional.png)
+
+Ahora, tras guardar los cambios y reiniciar el servidor, tendremos un nuevo encabezado en la respuesta de las peticiones realizadas el servidor
+
+![Respuesta](/img/respuesta_nueva.png)
 
 
-
+# 
